@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- displays site properly based on user's device -->
+
+	<link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+	<title>Frontend Mentor | Sunnyside agency landing page</title>
+	<link rel="stylesheet" href="style.css" />
+
+	<!-- Font awesome link -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+</head>
+
+<body>
+	<header>
+		<div class="top">
+			<img src="./images/logo.svg" alt="sunnyside" />
+			<nav role="navigation">
+				<div class="triangle"></div>
+				<ul class="nav-items">
+					<li><a>About</a></li>
+					<li><a>Services</a></li>
+					<li><a>Projects</a></li>
+					<li><a>Contact</a></li>
+				</ul>
+			</nav>
+			<div class="hamb-icon" onclick="hamburgerClick()">
+				<div class="bar bar-1"></div>
+				<div class="bar bar-2"></div>
+				<div class="bar bar-3"></div>
+			</div>
+		</div>
+		<h1>we are creatives</h1>
+		<img class="arrow-icon" src="./images/icon-arrow-down.svg" />
+	</header>
+	<main role="main">
+		<div class="strengths">
+			<div class="container container-1">
+				<div class="box box-1">
+					<div class="text-content">
+						<h2>Transform your brand</h2>
+						<p>We are a full-service creative agency specializing in helping brands grow fast. Engage your clients through compelling visuals that do most of the marketing for you.</p>
+						<a>learn more</a>
+					</div>
+				</div>
+				<box class="box box-2"></box>
+			</div>
+			<div class="container container-2">
+				<div class="box box-1"></div>
+				<div class="box box-2">
+					<div class="text-content">
+						<h2>Stand out to the right audience</h2>
+						<p>Using a collaborative formula or designers, researchers, photographers, videographers, and copy-writers, we'll build and extend your brand in digital places.</p>
+						<a>learn more</a>
+					</div>
+				</div>
+			</div>
+			<div class="container container-3">
+				<div class="box box-1">
+					<div class="text-content txt">
+						<h3>Graphic Design</h3>
+						<p>Great design makes you memorable. We deliver artwork that underscores your brand message and captures potential clients' attention.</p>
+					</div>
+				</div>
+				<div class="box box-2">
+					<div class="text-content txt">
+						<h3>Photography</h3>
+						<p>Increase your credibility by getting the most stunning, high-quality photos that improve your business image.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="client-testimonials" role="testimonials">
+			<h4>client testimonials</h4>
+			<div class="container">
+				<div class="client client-1">
+					<img src="./images/image-emily.jpg" alt="emily r." />
+					<p>We put our trust in Sunnyside and they delivered, making sure our needs were met and deadlines were always hit.</p>
+					<h5>Emily R.</h5>
+					<small>Marketing Director</small>
+				</div>
+				<div class="client client-2">
+					<img src="./images/image-thomas.jpg" alt="thomas s." />
+					<p>Sunnyside's enthusiasm coupled with their keen interest in our brand's success made it a satisfying and enjoyable experience.</p>
+					<h5>Thomas S.</h5>
+					<small>Chief Operating Officer</small>
+				</div>
+				<div class="client client-3">
+					<img src="./images/image-jennie.jpg" alt="jennie f." />
+					<p>Incredible end result! Our sales increased over 400% when we worked with Sunnyside. Highly recommended!</p>
+					<h5>Jennie F.</h5>
+					<small>Business Owner</small>
+				</div>
+			</div>
+		</div>
+		<div class="gallery">
+			<img src="./images/desktop/image-gallery-milkbottles.jpg" />
+			<img src="./images/desktop/image-gallery-orange.jpg" />
+			<img src="./images/desktop/image-gallery-cone.jpg" />
+			<img src="./images/desktop/image-gallery-sugarcubes.jpg" />
+		</div>
+	</main>
+	<footer role="footer">
+		<img src="./images/logo.svg" alt="sunnyside" />
+		<ul>
+			<li><a>About</a></li>
+			<li><a>Services</a></li>
+			<li><a>Projects</a></li>
+		</ul>
+		<ul>
+			<li><a><i class="fa-brands fa-square-facebook"></i></a></li>
+			<li><a><i class="fa-brands fa-instagram"></i></a></li>
+			<li><a><i class="fa-brands fa-twitter"></i></a></li>
+			<li><a><i class="fa-brands fa-pinterest"></i></a></li>
+		</ul>
+	</footer>
+	<script src="app.js"></script>
+</body>
+
+</html>
